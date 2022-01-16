@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Vera Mono;
+    src: url(/fonts/VeraMono-webfont.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vera Mono;
+    src: url(/fonts/VeraMono-Italic-webfont.woff) format(woff);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Vera Mono;
+    src: url(/fonts/VeraMono-Bold-webfont.woff) format(woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vera Mono;
+    src: url(/fonts/VeraMono-Bold-Italic-webfont.woff) format(woff);
+    font-weight: bold;
+    font-style: italic;
+}
