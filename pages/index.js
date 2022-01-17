@@ -10,15 +10,26 @@ export default function Home() {
 				<title>Vikramjit Singh</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<Nav name="Welcome" style="dark" />
+			<Nav 
+				name="Welcome" 
+				style="dark" 
+			/>
 
 			<style global jsx>{`
 				#__next {
 					height: 100%;
+					background-im
+				}
+
+				body {
+					background-image: url("/images/landing-bg.jpeg");
+					background-size: cover;
+					background-attachment: fixed;
+					background-position: center center;
 				}
 			`}</style>
 
-			<main className='bg-dark text-white d-flex align-items-center justify-content-center'>
+			<main className='text-white d-flex align-items-center justify-content-center show-background-image'>
 				<div className='container d-grid'>
 					<div className='row py-4'>
 						<div className='col border-end text-end px-4 d-flex align-items-center'>
@@ -45,7 +56,9 @@ export default function Home() {
 				</div>
 			</main>
 
-		<Footer style="dark"/>
+			<Footer 
+				style="dark" 
+			/>
 
 		</div>
 	)
