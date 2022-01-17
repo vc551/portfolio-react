@@ -1,19 +1,25 @@
 import Head from 'next/head'
 import Nav from '../components/Nav'
 import Button from '../components/Button'
-import Link from 'next/link'
 import Footer from '../components/Footer'
 
 export default function Home() {
 	return (
-		<div className='bg-dark text-white'>
+		<div className='full-height'>
 			<Head>
 				<title>Vikramjit Singh</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Nav name="Welcome" style="dark" />
 
-			<main className='position-absolute top-50 start-50 translate-middle'>
+			<style global jsx>{`
+				#__next {
+					height: 100%;
+				}
+			`}</style>
+
+			<main className='bg-dark text-white d-flex align-items-center justify-content-center'>
+				<div className=''>
 				<div className='container d-grid'>
 					<div className='row py-4'>
 						<div className='col border-end text-end px-4 d-flex align-items-center'>
@@ -28,15 +34,16 @@ export default function Home() {
 							<p className='py-1 opacity-75'>Embedded Systems</p>
 						</div>
 					</div>
-					<div className='row py-2'>
+					<div className='row py-2 px-4'>
 						<Button
 							text="Enter"
-							link=""
+							link="/main"
 							class="primary"
 							glow={true}
 							other="btn-lg p-1 fs-3"
 						/>
 					</div>
+				</div>
 				</div>
 			</main>
 
