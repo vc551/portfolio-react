@@ -1,7 +1,16 @@
 .footer-icon-dark {
     filter: invert(89%) sepia(2%) saturate(91%) hue-rotate(170deg) brightness(110%) contrast(98%);
-} 
+}
+
+.footer-icon-dark:hover {
+    filter: invert(61%) sepia(95%) saturate(1134%) hue-rotate(143deg) brightness(97%) contrast(93%) drop-shadow(0px 0px 2px #0dcaf0); 
+    animation: fade-dark 1s ease-in;
+}
 
 .footer-icon-light {
     filter: invert(9%) sepia(20%) saturate(497%) hue-rotate(169deg) brightness(90%) contrast(87%);
+}
+
+.footer-icon-light:hover {
+    filter: invert(48%) sepia(100%) saturate(6821%) hue-rotate(218deg) brightness(111%) contrast(98%) drop-shadow(0px 0px 1.5px #0d6efd); 
 }
