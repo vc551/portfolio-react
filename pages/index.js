@@ -19,7 +19,6 @@ export default function Home() {
 			`}</style>
 
 			<main className='bg-dark text-white d-flex align-items-center justify-content-center'>
-				<div className=''>
 				<div className='container d-grid'>
 					<div className='row py-4'>
 						<div className='col border-end text-end px-4 d-flex align-items-center'>
@@ -43,7 +42,6 @@ export default function Home() {
 							other="btn-lg p-1 fs-3"
 						/>
 					</div>
-				</div>
 				</div>
 			</main>
 
