@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Script from "next/script";
+import '../stylesheets/common.css';
+import '../stylesheets/text-styles.css';
 import '../stylesheets/vera-mono.css';
 
 export default function App({ Component, pageProps }) {

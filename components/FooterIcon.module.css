@@ -1,0 +1,7 @@
+.footer-icon-dark {
+    filter: invert(89%) sepia(2%) saturate(91%) hue-rotate(170deg) brightness(110%) contrast(98%);
+} 
+
+.footer-icon-light {
+    filter: invert(9%) sepia(20%) saturate(497%) hue-rotate(169deg) brightness(90%) contrast(87%);
+}
