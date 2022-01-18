@@ -15,6 +15,7 @@ export default function Home() {
 			<Head>
 				<title>Vikramjit Singh</title>
 				<link rel="icon" href="/favicon.ico" />
+				<meta name="theme-color" content="#212529" />
 			</Head>
 			<Nav
 				name=""
