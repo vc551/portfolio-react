@@ -3,7 +3,7 @@ import styles from './Nav.module.css'
 
 export default function Nav(props) {
     return (
-        <nav className={`navbar fixed-top navbar-${props.style} bg-${props.style} px-5 py-3 ${styles.navbar} ${props?.other}`}>
+        <nav className={`navbar fixed-top navbar-${props.style} bg-${(props?.bgstyle) ? (props.bgstyle) : (props.style)} ${(props?.sizestyle) ? (props.sizestyle) : `px-5 py-3`} ${styles.navbar} ${props?.other}`}>
             <div className="container-fluid">
                 <a className="navbar-brand">
                     {props.name}

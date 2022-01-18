@@ -1,7 +1,13 @@
+//Next Imports
 import Head from 'next/head'
-import Nav from '../components/Nav'
-import Button from '../components/Button'
-import Footer from '../components/Footer'
+
+//Global Components
+import Nav from '../components/global/Nav'
+import Button from '../components/global/Button'
+import Footer from '../components/global/Footer'
+
+//Page Specific Components
+import WrittenContent from '../components/index/WrittenContent'
 
 export default function Home() {
 	return (
@@ -10,9 +16,11 @@ export default function Home() {
 				<title>Vikramjit Singh</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<Nav 
-				name="Welcome" 
-				style="dark" 
+			<Nav
+				name=""
+				style="dark"
+				bgstyle="none"
+				sizestyle="p-5"
 			/>
 
 			<style global jsx>{`
@@ -32,17 +40,7 @@ export default function Home() {
 			<main className='text-white d-flex align-items-center justify-content-center show-background-image'>
 				<div className='container d-grid'>
 					<div className='row py-4'>
-						<div className='col border-end text-end px-4 d-flex align-items-center'>
-							<h1 className="display-1 vera"><em>Hi,</em> I'm <strong className='fw-bold'>Vikramjit</strong></h1>
-						</div>
-						<div className='col px-4'>
-							<h3 className='py-2'>Learner. Creator. Developer. </h3>
-							<p className='lead py-1'>Computer Science, BS, Arizona State University, 2022</p>
-							<p className='py-1 opacity-75'>Systems Engineer</p>
-							<p className='py-1 opacity-75'>Network Engineer</p>
-							<p className='py-1 opacity-75'>UI/UX Design</p>
-							<p className='py-1 opacity-75'>Embedded Systems</p>
-						</div>
+						<WrittenContent />
 					</div>
 					<div className='row py-2 px-4'>
 						<Button
@@ -56,8 +54,10 @@ export default function Home() {
 				</div>
 			</main>
 
-			<Footer 
-				style="dark" 
+			<Footer
+				style="dark"
+				bgstyle="none"
+				other="show-background-image"
 			/>
 
 		</div>

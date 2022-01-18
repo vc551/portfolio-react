@@ -2,7 +2,7 @@ import FooterIcon from "./FooterIcon"
 
 export default function Footer(props) {
     return (
-        <footer className={`fixed-bottom bg-${props.style} ${props?.other}`}>
+        <footer className={`fixed-bottom bg-${(props?.bgstyle)? (props.bgstyle) : (props.style)} ${props?.other}`}>
             <div className='d-grid align-items-center p-4'>
                 <div className='row'>
                     <FooterIcon
