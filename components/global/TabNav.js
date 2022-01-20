@@ -4,7 +4,7 @@ export default function TabNav(props) {
     return (
         <div className='container-fluid nav-tabs-padding justify-content-center d-flex'>
             <nav aria-label="Page navigation example">
-                <ul class="pagination">
+                <ul className="pagination">
                     <li className="page-item active">
                         <Link href="#"><a className="page-link" aria-current="page">About</a></Link>
                     </li>
