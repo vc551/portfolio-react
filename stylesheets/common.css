@@ -4,10 +4,14 @@ html, body, .full-height {
 
 main {
     min-height: 100%;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 100px;
 }
 
 .show-background-image {
     background-color: rgba(33, 37, 41, 0.8);
+}
+
+.nav-tabs-padding {
+    margin-top: 30px;
 }

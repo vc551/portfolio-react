@@ -18,10 +18,10 @@ export default function Home() {
 				<meta name="theme-color" content="#212529" />
 			</Head>
 			<Nav
-				name=""
+				name="Hi"
 				style="dark"
 				bgstyle="none"
-				sizestyle="p-5"
+				sizestyle="p-3"
 			/>
 
 			<style global jsx>{`
