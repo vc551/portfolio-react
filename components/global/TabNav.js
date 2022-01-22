@@ -9,7 +9,7 @@ export default function TabNav(props) {
                         <Link href="#"><a className="page-link" aria-current="page">About</a></Link>
                     </li>
                     <li className="page-item">
-                        <Link href="#"><a className="page-link" aria-current="page">Professional</a></Link>
+                        <Link href="#"><a className="page-link" aria-current="page">Qualifications</a></Link>
                     </li>
                     <li className="page-item">
                         <Link href="#"><a className="page-link" aria-current="page">Projects</a></Link>
