@@ -18,7 +18,7 @@ export default function Home() {
 				<meta name="theme-color" content="#212529" />
 			</Head>
 			<Nav
-				name="Hi"
+				name={<i className='bi-chevron-contract'></i>}
 				style="dark"
 				bgstyle="none"
 				sizestyle="p-3"
