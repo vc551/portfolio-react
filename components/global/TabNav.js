@@ -6,13 +6,13 @@ export default function TabNav(props) {
             <nav aria-label="Page navigation example">
                 <ul className="pagination">
                     <li className="page-item active">
-                        <Link href="#"><a className="page-link" aria-current="page">About</a></Link>
+                        <Link href="/main/"><a className="page-link" aria-current="page">About</a></Link>
                     </li>
                     <li className="page-item">
-                        <Link href="#"><a className="page-link" aria-current="page">Qualifications</a></Link>
+                        <Link href="/main/qualifications"><a className="page-link">Qualifications</a></Link>
                     </li>
                     <li className="page-item">
-                        <Link href="#"><a className="page-link" aria-current="page">Projects</a></Link>
+                        <Link href="/main/projects"><a className="page-link">Projects</a></Link>
                     </li>
                 </ul>
             </nav>
