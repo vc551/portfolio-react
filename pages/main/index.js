@@ -6,13 +6,14 @@ import TabNav from "../../components/global/TabNav";
 
 import { sectionsData } from "../../src/main/index/cards";
 
-const sections = sectionsData.map((data) =>
+const sections = sectionsData.map((data, key) =>
     <AboutSection
         backstyle={data.backstyle}
         textstyle={data.textstyle}
         heading={data.heading}
         paragraph={data.paragraph}
         cards={data.cards}
+        key={key}
     />
 )
 
@@ -32,9 +33,9 @@ export default function Home() {
                 link="/"
             />
             <main className='align-items-center justify-content-center bg-light'>
-                <TabNav />
+                <TabNav about={true} />
                 <div className="container-fluid p-5">
-                    <h1 className="display-1 vera">I'm Vikramjit <strong className="fw-bold">Singh</strong></h1>
+                    <h2 className="display-2 vera">I'm Vikramjit <strong className="fw-bold">Singh</strong></h2>
                     <p className="lead">I'm a computer enthusiast, which led to me becoming a software developer.</p>
                 </div>
                 {sections}
