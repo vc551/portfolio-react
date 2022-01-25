@@ -1,6 +1,8 @@
+import Cards from "../Cards";
+
 export default function AboutSection(props) {
     const divname = props.heading.replace(/\s/g, '') + "-dropdown";
-    
+
     return (
         <div className={`container-fluid bg-${props.backstyle} text-${props.textstyle} p-5`}>
             <h3>{props.heading}</h3>
@@ -9,10 +11,7 @@ export default function AboutSection(props) {
                 <i className="bi-chevron-down" />
             </button>
             <div className="collapse" id={divname}>
-                <div className="d-flex">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                    {/* Add Cards Here */}
-                </div>
+                <Cards cards={props.cards} />
             </div>
         </div>
     )
