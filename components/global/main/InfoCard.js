@@ -10,6 +10,7 @@ export default function InfoCard(props) {
             className="card-img-top"
             width={300}
             height={200}
+            layout="responsive"
         />
     }
 
@@ -24,12 +25,15 @@ export default function InfoCard(props) {
     }
 
     return (
-        <div className="card shadow" style={{ width: 18 + "rem" }}>
+        <div className="card shadow" style={{ width: 18 + "rem" , height: 24 + "rem"}}>
             {image}
-            <div className="card-body">
+            <div className="card-body" style={{height: 14 + "rem"}}>
                 <h5 className="card-title border-bottom">
                     {props.data.title}
                 </h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                    {props.data.subtitle}
+                </h6>
                 <p className="card-text">
                     {props.data.text}
                 </p>
