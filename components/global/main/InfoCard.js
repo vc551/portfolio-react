@@ -2,6 +2,19 @@ import Image from "next/image";
 import Button from "../Button";
 
 export default function InfoCard(props) {
+    const normalizeSrc = (src) => {
+        return src.startsWith("/") ? src.slice(1) : src;
+    };
+
+    const cloudflareLoader = ({ src, width, quality }) => {
+        const params = [`width=${width}`];
+        if (quality) {
+            params.push(`quality=${quality}`);
+        }
+        const paramsString = params.join(",");
+        return `/cdn-cgi/image/${paramsString}/${normalizeSrc(src)}`;
+    };
+
     var image = <></>
     if (props.data?.image) {
         image = <Image
@@ -11,6 +24,7 @@ export default function InfoCard(props) {
             width={300}
             height={200}
             layout="responsive"
+            loader={cloudflareLoader}
         />
     }
 
@@ -25,9 +39,9 @@ export default function InfoCard(props) {
     }
 
     return (
-        <div className="card shadow" style={{ width: 18 + "rem" , height: 24 + "rem"}}>
+        <div className="card shadow" style={{ width: 18 + "rem", height: 24 + "rem" }}>
             {image}
-            <div className="card-body" style={{height: 14 + "rem"}}>
+            <div className="card-body" style={{ height: 14 + "rem" }}>
                 <h5 className="card-title border-bottom">
                     {props.data.title}
                 </h5>
