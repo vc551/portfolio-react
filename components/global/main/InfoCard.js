@@ -17,6 +17,7 @@ export default function InfoCard(props) {
             width={300}
             height={200}
             layout="responsive"
+            loader={cloudflareImageLoader}
         />
     }
 
