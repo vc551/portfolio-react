@@ -18,7 +18,7 @@ export default function Nav(props) {
                     <Button
                         text="Resume"
                         link="/assets/resume.pdf"
-                        class="info"
+                        class="primary"
                         glow={true}
                     />
                     <Button

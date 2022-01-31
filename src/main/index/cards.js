@@ -2,30 +2,30 @@ export const sectionsData = [
     {
         backstyle: "dark",
         textstyle: "light",
-        heading: "UI Design",
-        paragraph: "I've always had a knack for good UI design. Now I've also had the basic, but essential professional training to make my UI/UX design even better.",
+        heading: "Artificial Intelligence",
+        paragraph: "I'm very interested in AI/ML applications as well. I've taken several classes and projects to better understand the concept.",
         cards: [
             {
                 image:"/images/asu.svg",
                 imagealt:"Arizona State University",
-                title: "CSE 463",
-                subtitle: "Intro to Human Computer Interaction",
-                text: "Covered the basics of good UI/UX design principles",
+                title: "CSE 471",
+                subtitle: "Intro to Artificial Intelligence",
+                text: "Started with the basics of what AI entails, and learned various techniques used in applications.",
                 buttontext: "Arizona State University",
-                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=13874&searchType=all&term=2211&collapse=Y",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=12669&searchType=all&term=2221&collapse=Y",
                 buttonglow: false,
-                buttonclass: "btn btn-primary"
+                buttonclass: "btn btn-primary container-fluid"
             },
             {
                 image:"/images/asu.svg",
                 imagealt:"Arizona State University",
-                title: "CSE 494",
-                subtitle: "Foundations of Data Visualization",
-                text: "Learnt about the principles of visualizing easy to complex data structures",
+                title: "CSE 475",
+                subtitle: "Foundations of Machine Learning",
+                text: "Covered basics of different machine learning models, algorithms, and techniques.",
                 buttontext: "Arizona State University",
-                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=88967&searchType=all&term=2217&collapse=Y",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=34714&searchType=all&term=2211&collapse=Y",
                 buttonglow: false,
-                buttonclass: "btn btn-primary"
+                buttonclass: "btn btn-primary container-fluid"
             }
         ]
     },
@@ -44,7 +44,7 @@ export const sectionsData = [
                 buttontext: "Arizona State University",
                 buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=13874&searchType=all&term=2211&collapse=Y",
                 buttonglow: false,
-                buttonclass: "btn btn-primary"
+                buttonclass: "btn btn-primary container-fluid"
             },
             {
                 image:"/images/asu.svg",
@@ -55,16 +55,56 @@ export const sectionsData = [
                 buttontext: "Arizona State University",
                 buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=88967&searchType=all&term=2217&collapse=Y",
                 buttonglow: false,
-                buttonclass: "btn btn-primary"
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/ubuntu.svg",
+                imagealt:"Ubuntu Server",
+                title: "Home Network System",
+                subtitle: "Software and Hardware setup",
+                text: "Set up home network with Smart Home Systems, Media, and Storage servers. Runs on redundant Ubuntu systems. Supports popular platforms like HomeKit, Alexa, etc.",
             }
         ]
     },
     {
         backstyle: "dark",
         textstyle: "light",
-        heading: "Artificial Intelligence",
-        paragraph: "I'm very interested in AI/ML applications as well. I've taken several classes and projects to better understand the concept.",
+        heading: "UI Design",
+        paragraph: "I've always had a knack for good UI design. Now I've also had the basic, but essential professional training to make my UI/UX design even better.",
         cards: [
+            {
+                image:"/images/asu.svg",
+                imagealt:"Arizona State University",
+                title: "CSE 463",
+                subtitle: "Intro to Human Computer Interaction",
+                text: "Covered the basics of good UI/UX design principles",
+                buttontext: "Arizona State University",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=13874&searchType=all&term=2211&collapse=Y",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/asu.svg",
+                imagealt:"Arizona State University",
+                title: "CSE 494",
+                subtitle: "Foundations of Data Visualization",
+                text: "Learnt about the principles of visualizing easy to complex data structures",
+                buttontext: "Arizona State University",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=88967&searchType=all&term=2217&collapse=Y",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/mlh.svg",
+                imagealt:"Sunhacks 2019",
+                title: "Hackathon project for 'best UI design'",
+                subtitle: "Sunhacks 2019",
+                text: "Created a project utilizing sms, firebase APIs for 'best UI design'.",
+                buttontext: "Project Website",
+                buttonlink: "https://sunhacks2019.herokuapp.com",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            }
         ]
     },
     {
