@@ -91,7 +91,7 @@ export const sectionsData = [
                 imagealt:"Arizona State University",
                 title: "CSE 463",
                 subtitle: "Intro to Human Computer Interaction",
-                text: "Covered the basics of good UI/UX design principles",
+                text: "Covered the basics of good UI/UX design principles.",
                 buttontext: "Arizona State University",
                 buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=13874&searchType=all&term=2211&collapse=Y",
                 buttonglow: false,
@@ -118,7 +118,21 @@ export const sectionsData = [
                 buttonlink: "https://sunhacks2019.herokuapp.com",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
-            }
+            },
+            {
+                image:"/images/nodejs.svg",
+                imagealt:"NodeJS",
+                title: "Yelpcamp!",
+                subtitle: "The Web Developer Bootcamp",
+                text: "Created a basic dummy campgrounds website to help learn JS and better understand UI design principles."
+            },
+            {
+                image:"/images/reactjs.png",
+                imagealt:"ReactJS",
+                title: "Internal Home Website",
+                subtitle: "Home Network Management",
+                text: "Made a website served internally to home network for managing different aspects of the smart home system. Accessible locally only."
+            },
         ]
     },
     {
@@ -162,7 +176,7 @@ export const sectionsData = [
                 title: "Home Surveillance System",
                 subtitle: "Camera Recording and Streaming",
                 text: "Integrated existing projects for the Raspberry Pi into a custom program for In-Home Surveillance. Capable of HomeKit Secure Video, Local Recording"
-            },
+            }
         ]
     }
 ]
