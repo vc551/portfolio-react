@@ -171,8 +171,8 @@ export const sectionsData = [
                 text: "Created the software to enable existing lights to be controlled using ESP8266 devices by HomeKit, Amazon Alexa, IFTTT, etc."
             },
             {
-                image:"/images/raspberrypi-zero.webp",
-                imagealt:"Raspberry Pi Zero W",
+                image:"/images/rpi.png",
+                imagealt:"Raspberry Pi",
                 title: "Home Surveillance System",
                 subtitle: "Camera Recording and Streaming",
                 text: "Integrated existing projects for the Raspberry Pi into a custom program for In-Home Surveillance. Capable of HomeKit Secure Video, Local Recording"
