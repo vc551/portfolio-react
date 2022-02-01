@@ -26,6 +26,20 @@ export const sectionsData = [
                 buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=34714&searchType=all&term=2211&collapse=Y",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/mnist.png",
+                imagealt:"MNIST Numbers",
+                title: "MNIST Classifier",
+                subtitle: "Foundations of Machine Learning",
+                text: "Used Google TPUs to develop and accelerate a Neural Network Classifier for the MNIST Numbers dataset. Achieved upto 98.5% accuracy.",
+            },
+            {
+                image:"/images/cifar.png",
+                imagealt:"CIFAR-10 Images",
+                title: "CIFAR-10 Classifier",
+                subtitle: "Foundations of Machine Learning",
+                text: "Used Google TPUs to develop and accelerate a Neural Network Classifier for the CIFAR-10 images dataset. Achieved upto 75% accuracy even with a relatively simple model.",
             }
         ]
     },
@@ -113,6 +127,42 @@ export const sectionsData = [
         heading: "Embedded Systems",
         paragraph: "For many of my projects, I've worked with microcontroller based embedded systems. I've used them in personal, professional, and academic environments.",
         cards: [
+            {
+                image:"/images/asu.svg",
+                imagealt:"Arizona State University",
+                title: "CSE 485",
+                subtitle: "Capstone 1",
+                text: "Developed tiny media slideshow players using Arduino and CircuitPython.",
+                buttontext: "Arizona State University",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=19043&searchType=all&term=2211&collapse=Y",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/asu.svg",
+                imagealt:"Arizona State University",
+                title: "CSE 486",
+                subtitle: "Capstone 2",
+                text: "Developed tiny media slideshow players using Raspberry Pis, NodeJS, and python.",
+                buttontext: "Demo Website",
+                buttonlink: "https://vplayer-raspberrypi-website.herokuapp.com",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/esp8266.jpg",
+                imagealt:"ESP8266",
+                title: "Smart Home System",
+                subtitle: "Electric Control Devices",
+                text: "Created the software to enable existing lights to be controlled using ESP8266 devices by HomeKit, Amazon Alexa, IFTTT, etc."
+            },
+            {
+                image:"/images/raspberrypi-zero.webp",
+                imagealt:"Raspberry Pi Zero W",
+                title: "Home Surveillance System",
+                subtitle: "Camera Recording and Streaming",
+                text: "Integrated existing projects for the Raspberry Pi into a custom program for In-Home Surveillance. Capable of HomeKit Secure Video, Local Recording"
+            },
         ]
     }
 ]
