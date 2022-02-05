@@ -26,7 +26,7 @@ export const qualificationsData = [
                 title: "Undergraduate Teaching Assistant",
                 subtitle: "Ira A. Fulton Schools of Engineering",
                 text: "Served as a student mentor and an academic assistant in a Digital Design course. Conducted various activities like exam reviews, course surveys, lead lectures, etc. to ensure student success.",
-            },
+            }
         ]
     }
 ]
