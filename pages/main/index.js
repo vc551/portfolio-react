@@ -35,8 +35,9 @@ export default function Home() {
             <main className='align-items-center justify-content-center bg-light'>
                 <TabNav about={true} />
                 <div className="container-fluid p-5">
-                    <h2 className="display-2 vera">I'm Vikramjit <strong className="fw-bold">Singh</strong></h2>
-                    <p className="lead">I'm a computer enthusiast, which led to me becoming a software developer.</p>
+                    <h2 className="display-2 vera"><strong className="fw-bold">About</strong> Me</h2>
+                    <p className="lead">I've always a computer enthusiast, which led to me becoming a software developer.</p>
+                    <p>I've worked with various technologies in various CS domains. Here are some of the things that I'm more interested in, and some of my qualifications in those specific fields.</p>
                 </div>
                 {sections}
             </main>
