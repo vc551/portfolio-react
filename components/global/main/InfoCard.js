@@ -33,7 +33,7 @@ export default function InfoCard(props) {
     }
 
     return (
-        <div className="card shadow" style={{ width: 18 + "rem", height: 24 + "rem" }}>
+        <div className="card shadow me-2" style={{ width: 18 + "rem", height: 24 + "rem" }}>
             {image}
             <div className="card-body" style={{ height: 14 + "rem" }}>
                 <h5 className="card-title border-bottom">
