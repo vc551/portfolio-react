@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Footer from "../../components/global/Footer";
-import AboutSection from "../../components/global/main/Section";
+import Section from "../../components/global/main/Section";
 import Nav from "../../components/global/Nav";
 import TabNav from "../../components/global/TabNav";
 
 import { sectionsData } from "../../src/main/index/cards";
 
 const sections = sectionsData.map((data, key) =>
-    <AboutSection
+    <Section
         backstyle={data.backstyle}
         textstyle={data.textstyle}
         heading={data.heading}

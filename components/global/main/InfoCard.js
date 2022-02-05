@@ -32,8 +32,23 @@ export default function InfoCard(props) {
         />
     }
 
+    var header = <></>
+    if (props.data?.header) {
+        header = <div className="card-header">
+            {props.data.header}
+        </div>
+    }
+    
+    var footer = <></>
+    if (props.data?.footer) {
+        header = <div className="card-footer">
+            {props.data.footer}
+        </div>
+    }
+
     return (
-        <div className="card shadow me-2" style={{ width: 18 + "rem", height: 24 + "rem" }}>
+        <div className="card shadow me-2" style={{ width: 18 + "rem", height: ((props.data?.height) ? props.data.height : 24) + "rem" }}>
+            {header}
             {image}
             <div className="card-body" style={{ height: 14 + "rem" }}>
                 <h5 className="card-title border-bottom">
@@ -47,6 +62,7 @@ export default function InfoCard(props) {
                 </p>
                 {button}
             </div>
+            {footer}
         </div>
     )
 }

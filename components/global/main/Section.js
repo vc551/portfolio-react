@@ -1,6 +1,6 @@
 import Cards from "./Cards";
 
-export default function AboutSection(props) {
+export default function Section(props) {
     const divname = props.heading.replace(/\s/g, '') + "-dropdown";
 
     return (
