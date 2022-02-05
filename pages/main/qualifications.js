@@ -21,7 +21,7 @@ export default function Qualifications() {
     return (
         <div>
             <Head>
-                <title>Projects - Vikramjit Singh</title>
+                <title>Qualifications - Vikramjit Singh</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="theme-color" content="#f8f9fa" />
             </Head>
