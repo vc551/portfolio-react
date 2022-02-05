@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Footer from "../../components/global/Footer";
-import AboutSection from "../../components/global/main/index/AboutSection";
+import AboutSection from "../../components/global/main/Section";
 import Nav from "../../components/global/Nav";
 import TabNav from "../../components/global/TabNav";
 
