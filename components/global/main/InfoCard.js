@@ -47,7 +47,7 @@ export default function InfoCard(props) {
     }
 
     return (
-        <div className="card shadow me-2" style={{ width: 18 + "rem", height: ((props.data?.height) ? props.data.height : 24) + "rem" }}>
+        <div className="card shadow me-4" style={{ width: 18 + "rem", height: ((props.data?.height) ? props.data.height : 24) + "rem" }}>
             {header}
             {image}
             <div className="card-body" style={{ height: 14 + "rem" }}>
