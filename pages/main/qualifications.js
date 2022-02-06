@@ -35,8 +35,8 @@ export default function Qualifications() {
             <main className='align-items-center justify-content-center bg-light'>
                 <TabNav qualifications={true} />
                 <div className="container-fluid p-5">
-                    <h2 className="display-2 vera">My <strong className="fw-bold">Qualifications</strong></h2>
-                    <p className="lead">Some of my professional and academic qualifications</p>
+                    <h2 className="display-2 vera">My <strong className="fw-bold">Qualifications</strong> and <strong className="fw-bold">Achievements</strong></h2>
+                    <p className="lead">Listed below are some of my professional and academic qualifications and achievements.</p>
                 </div>
                 {sections}
             </main>

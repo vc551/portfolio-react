@@ -6,10 +6,10 @@ export const qualificationsData = [
         paragraph: "I've worked at various professional positions as a student worker at ASU. Here are some details of the positions I've worked at.",
         cards: [
             {
-                height:32,
-                header:"Current: Started October 2019",
-                image:"/images/universitycollege.svg",
-                imagealt:"ASU University College",
+                height: 32,
+                header: "Current: Started October 2019",
+                image: "/images/universitycollege.svg",
+                imagealt: "ASU University College",
                 title: "Subject Area Tutor",
                 subtitle: "University Academic Success Programs",
                 text: "Extensive experience working with tutees in a peer-to-peer learning model. Helped Tutees with problems in, but not limited to math, physics, stats, and CS.",
@@ -19,9 +19,9 @@ export const qualificationsData = [
                 buttonclass: "btn btn-primary container-fluid"
             },
             {
-                height:32,
-                header:"August 2019 - May 2020",
-                image:"/images/fultonschoolsofengineering.svg",
+                height: 32,
+                header: "August 2019 - May 2020",
+                image: "/images/fultonschoolsofengineering.svg",
                 imagealt: "Ira A. Fulton Schools of Engineering",
                 title: "Undergraduate Teaching Assistant",
                 subtitle: "Ira A. Fulton Schools of Engineering",
@@ -36,9 +36,9 @@ export const qualificationsData = [
         paragraph: "Below are the most recent of my academic qualifications.",
         cards: [
             {
-                height:33.5,
-                header:"August 2018 - May 2022",
-                image:"/images/fultonschoolsofengineering.svg",
+                height: 33.5,
+                header: "August 2018 - May 2022",
+                image: "/images/fultonschoolsofengineering.svg",
                 imagealt: "Ira A. Fulton Schools of Engineering",
                 title: "Computer Science, BS",
                 subtitle: "Ira A. Fulton Schools of Engineering, Arizona State University-Tempe, Arizona (US)",
@@ -49,10 +49,10 @@ export const qualificationsData = [
                 buttonclass: "btn btn-primary container-fluid"
             },
             {
-                height:33.5,
-                header:"April 2014 - April 2018",
-                image:"/images/dav.svg",
-                imagealt:"DAV College Managing Committee",
+                height: 33.5,
+                header: "April 2014 - April 2018",
+                image: "/images/dav.svg",
+                imagealt: "DAV College Managing Committee",
                 title: "High Schooling",
                 subtitle: "DAV Public School, Bhai Randhir Singh Nagar, Ludhiana, Punjab (IN)",
                 text: "Completed high schooling with a CGPA-10 (out of 10). Studied Non-Medical (Physics, Chemistry, Math), and Computer Science.",
@@ -71,7 +71,7 @@ export const qualificationsData = [
         cards: [
             {
                 height: 27,
-                image:"/images/udemy.svg",
+                image: "/images/udemy.svg",
                 imagealt: "Udemy",
                 title: "The Web Developer Bootcamp",
                 subtitle: "Colt Steele - Udemy",
@@ -83,7 +83,7 @@ export const qualificationsData = [
             },
             {
                 height: 27,
-                image:"/images/udemy.svg",
+                image: "/images/udemy.svg",
                 imagealt: "Udemy",
                 title: "The Advanced Web Developer Bootcamp",
                 subtitle: "Colt Steele - Udemy",
@@ -95,16 +95,35 @@ export const qualificationsData = [
             },
             {
                 height: 27,
-                image:"/images/udemy.svg",
+                image: "/images/udemy.svg",
                 imagealt: "Udemy",
                 title: "iOS & Swift - The Complete iOS App Development Bootcamp",
                 subtitle: "Dr. Angela Yu - Udemy",
-                text: "Learned about iOS App Development principles and Swift.",
+                text: "Learned about iOS App dev principles and Swift frameworks.",
                 buttontext: "Udemy",
                 buttonlink: "https://www.udemy.com/course/ios-13-app-development-bootcamp/",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
             },
+        ]
+    },
+    {
+        backstyle: "light",
+        textstyle: "dark",
+        heading: "Achievements",
+        paragraph: "Apart from just my qualifications, here are some of my achievements, both academic and professional.",
+        cards: [
+            {
+                image: "/images/asu.svg",
+                imagealt: "ASU",
+                title: "New American University Scholarship",
+                subtitle: "Arizona State University",
+                text: "Recipient of the maximum amount of the scholarship amount.",
+                buttontext: "NAmU - ASU",
+                buttonlink: "https://students.asu.edu/scholarships/newamericanuniversity",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            }
         ]
     }
 ]
