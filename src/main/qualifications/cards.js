@@ -8,7 +8,7 @@ export const qualificationsData = [
             {
                 height:32,
                 header:"Current: Started October 2019",
-                image:"/images/universitycollege.jpeg",
+                image:"/images/universitycollege.svg",
                 imagealt:"ASU University College",
                 title: "Subject Area Tutor",
                 subtitle: "University Academic Success Programs",
@@ -21,7 +21,7 @@ export const qualificationsData = [
             {
                 height:32,
                 header:"August 2019 - May 2020",
-                image:"/images/fultonschoolsofengineering.jpeg",
+                image:"/images/fultonschoolsofengineering.svg",
                 imagealt:"ASU Ira A. Fulton Schools of Engineering",
                 title: "Undergraduate Teaching Assistant",
                 subtitle: "Ira A. Fulton Schools of Engineering",
