@@ -62,5 +62,49 @@ export const qualificationsData = [
                 buttonclass: "btn btn-primary container-fluid"
             }
         ]
+    },
+    {
+        backstyle: "dark",
+        textstyle: "light",
+        heading: "Other Qualifications",
+        paragraph: "Apart from just my professional and academic qualifications, I've also completed some other trainings as well. Here are some of them.",
+        cards: [
+            {
+                height: 27,
+                image:"/images/udemy.svg",
+                imagealt: "Udemy",
+                title: "The Web Developer Bootcamp",
+                subtitle: "Colt Steele - Udemy",
+                text: "Learned the basics of web development using HTML, CSS, JS, and databases like noSQL.",
+                buttontext: "Udemy",
+                buttonlink: "https://www.udemy.com/course/the-web-developer-bootcamp/",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                height: 27,
+                image:"/images/udemy.svg",
+                imagealt: "Udemy",
+                title: "The Advanced Web Developer Bootcamp",
+                subtitle: "Colt Steele - Udemy",
+                text: "Learned advanced web development using frameworks like ReactJS among other things.",
+                buttontext: "Udemy",
+                buttonlink: "https://www.udemy.com/course/the-advanced-web-developer-bootcamp/",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                height: 27,
+                image:"/images/udemy.svg",
+                imagealt: "Udemy",
+                title: "iOS & Swift - The Complete iOS App Development Bootcamp",
+                subtitle: "Dr. Angela Yu - Udemy",
+                text: "Learned about iOS App Development principles and Swift.",
+                buttontext: "Udemy",
+                buttonlink: "https://www.udemy.com/course/ios-13-app-development-bootcamp/",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+        ]
     }
 ]
