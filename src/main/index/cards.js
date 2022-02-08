@@ -127,7 +127,7 @@ export const sectionsData = [
                 text: "Created a basic dummy campgrounds website to help learn JS and better understand UI design principles."
             },
             {
-                image:"/images/reactjs.png",
+                image:"/images/react.svg",
                 imagealt:"ReactJS",
                 title: "Internal Home Website",
                 subtitle: "Home Network Management",

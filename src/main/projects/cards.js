@@ -1,20 +1,109 @@
 export const projectsData = [
     {
-        backstyle: "light",
-        textstyle: "dark",
-        heading: "Academic",
-        paragraph: "Here's a list of some of my academic projects.",
+        backstyle: "dark",
+        textstyle: "light",
+        heading: "Academic and Professional",
+        paragraph: "Here's a list of some of my academic and professional projects.These also include projects that I've created for various hackathons",
         cards: [
             {
-                image: "",
-                imagealt: "",
-                title: "COMING SOON!",
-                subtitle: "",
-                text: "",
-                buttontext: "",
-                buttonlink: "",
+                image:"/images/mnist.png",
+                imagealt:"MNIST Numbers",
+                title: "MNIST Classifier",
+                subtitle: "Foundations of Machine Learning",
+                text: "Used Google TPUs to develop and accelerate a Neural Network Classifier for the MNIST Numbers dataset. Achieved upto 98.5% accuracy.",
+            },
+            {
+                image:"/images/cifar.png",
+                imagealt:"CIFAR-10 Images",
+                title: "CIFAR-10 Classifier",
+                subtitle: "Foundations of Machine Learning",
+                text: "Used Google TPUs to develop and accelerate a Neural Network Classifier for the CIFAR-10 images dataset. Achieved upto 75% accuracy even with a relatively simple model.",
+            },
+            {
+                image:"/images/nodejs.svg",
+                imagealt:"NodeJS",
+                title: "CSE 486 - Tiny Video Player",
+                subtitle: "Capstone 2",
+                text: "Developed tiny media slideshow players using Raspberry Pis, NodeJS, and python.",
+                buttontext: "Demo Website",
+                buttonlink: "https://vplayer-raspberrypi-website.herokuapp.com",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/swift.svg",
+                imagealt:"Swift",
+                title: "CSE 335 - Location/Tasks",
+                subtitle: "Principles of Mobile App Dev",
+                text: "Created a prototype for an iOS/iPadOS app that groups user based tasks based on their location, displays them based on driving time from user. Syncs data across all devices using iCloud."
+            },
+            {
+                image:"/images/mlh.svg",
+                imagealt:"Sunhacks 2019",
+                title: "Hackathon project for 'best UI design'",
+                subtitle: "Sunhacks 2019",
+                text: "Created a project utilizing sms, firebase APIs for 'best UI design'.",
+                buttontext: "Project Website",
+                buttonlink: "https://sunhacks2019.herokuapp.com",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/devilsinvent.svg",
+                imagealt:"Devils Invent",
+                title: "Hackathon app for the auditory/visually impaired",
+                subtitle: "Devils Invent 2019: Dealer's Choice",
+                text: "Created a prototype for a video app that utilized OpenCV to translate ASL to english and vice-versa, and Text-To-Speech."
+            },
+            {
+                image:"/images/devilsinvent.svg",
+                imagealt:"Devils Invent",
+                title: "Hackathon project for Smart Vertical Farming System",
+                subtitle: "Devils Invent 2019: Invent for the planet",
+                text: "Created mockups for a smart vertical farm. Used technologies like Arduino, IoT, etc. to create a better, sustainable urban farm."
+            },
+        ]
+    },
+    {
+        backstyle: "light",
+        textstyle: "dark",
+        heading: "Personal",
+        paragraph: "Here's a list of some of my personal projects.",
+        cards: [
+            {
+                image:"/images/ubuntu.svg",
+                imagealt:"Ubuntu Server",
+                title: "Home Network System",
+                subtitle: "Software and Hardware setup",
+                text: "Set up home network with Smart Home Systems, Media, and Storage servers. Runs on redundant Ubuntu systems. Supports popular platforms like HomeKit, Alexa, etc.",
+            },
+            {
+                image:"/images/nodejs.svg",
+                imagealt:"NodeJS",
+                title: "Yelpcamp!",
+                subtitle: "The Web Developer Bootcamp",
+                text: "Created a basic dummy campgrounds website to help learn JS and better understand UI design principles."
+            },
+            {
+                image:"/images/react.svg",
+                imagealt:"ReactJS",
+                title: "Internal Home Website",
+                subtitle: "Home Network Management",
+                text: "Made a website served internally to home network for managing different aspects of the smart home system. Accessible locally only."
+            },
+            {
+                image:"/images/esp8266.jpg",
+                imagealt:"ESP8266",
+                title: "Smart Home System",
+                subtitle: "Electric Control Devices",
+                text: "Created the software to enable existing lights to be controlled using ESP8266 devices by HomeKit, Amazon Alexa, IFTTT, etc."
+            },
+            {
+                image:"/images/rpi.png",
+                imagealt:"Raspberry Pi",
+                title: "Home Surveillance System",
+                subtitle: "Camera Recording and Streaming",
+                text: "Integrated existing projects for the Raspberry Pi into a custom program for In-Home Surveillance. Capable of HomeKit Secure Video, Local Recording"
             }
         ]
     },
