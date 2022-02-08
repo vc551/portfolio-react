@@ -114,16 +114,41 @@ export const qualificationsData = [
         paragraph: "Apart from just my qualifications, here are some of my achievements, both academic and professional.",
         cards: [
             {
+                height: 27,
                 image: "/images/asu.svg",
                 imagealt: "ASU",
                 title: "New American University Scholarship",
                 subtitle: "Arizona State University",
-                text: "Recipient of the maximum amount of the scholarship amount.",
+                text: "Recipient of the maximum amount of the scholarship amount. Applied for entire term of study.",
                 buttontext: "NAmU - ASU",
                 buttonlink: "https://students.asu.edu/scholarships/newamericanuniversity",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
-            }
+            },
+            {
+                height: 27,
+                image: "/images/fultonschoolsofengineering.svg",
+                imagealt: "Ira A. Fulton Schools of Engineering",
+                title: "Dean's List",
+                subtitle: "Ira A. Fulton Schools of Engineering",
+                text: "Recipient of the Dean's List award for Fall 2018, Spring 2019, Fall 2019, and Spring 2021.",
+                buttontext: "Dean's List - ASU",
+                buttonlink: "https://advising.engineering.asu.edu/academic-standards/",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                height: 27,
+                image: "/images/asu.svg",
+                imagealt: "ASU",
+                title: "SUN Award",
+                subtitle: "Arizona State University",
+                text: "Awarded for exemplary service as a student worker at ASU. Earned award in November 2019 working as Subject Area Tutor",
+                buttontext: "SUN Award - ASU",
+                buttonlink: "https://cfo.asu.edu/sun-award",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
         ]
     }
 ]
