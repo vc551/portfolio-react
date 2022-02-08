@@ -50,7 +50,7 @@ export default function InfoCard(props) {
         <div className="card shadow me-4" style={{ width: 18 + "rem", height: ((props.data?.height) ? props.data.height : 24) + "rem" }}>
             {header}
             {image}
-            <div className="card-body" style={{ height: 14 + "rem" }}>
+            <div className="card-body" style={{ height: ((props.data?.innerheight) ? props.data.innerheight : 14) + "rem" }}>
                 <h5 className="card-title border-bottom">
                     {props.data.title}
                 </h5>

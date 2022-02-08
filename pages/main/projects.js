@@ -1,7 +1,21 @@
 import Head from "next/head";
 import Footer from "../../components/global/Footer";
+import Section from "../../components/global/main/Section";
 import Nav from "../../components/global/Nav";
 import TabNav from "../../components/global/TabNav";
+
+import { projectsData } from "../../src/main/projects/cards";
+
+const sections = projectsData.map((data, key) =>
+    <Section
+        backstyle={data.backstyle}
+        textstyle={data.textstyle}
+        heading={data.heading}
+        paragraph={data.paragraph}
+        cards={data.cards}
+        key={key}
+    />
+)
 
 export default function Projects() {
     return (
@@ -24,6 +38,7 @@ export default function Projects() {
                     <h2 className="display-2 vera">My <strong className="fw-bold">Projects</strong></h2>
                     <p className="lead">Some of the projects that I've worked on.</p>
                 </div>
+                {sections}
             </main>
 
             <Footer
