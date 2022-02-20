@@ -67,7 +67,7 @@ export const sectionsData = [
                 subtitle: "Computer Networks",
                 text: "Covered the basics of how different kinds of computer networks work.",
                 buttontext: "Arizona State University",
-                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=13874&searchType=all&term=2211&collapse=Y",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=70608&searchType=all&term=2207&collapse=Y",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
             },
@@ -78,7 +78,7 @@ export const sectionsData = [
                 subtitle: "Computer Networks Security",
                 text: "Covered how to protect computers and networks from various malicious attacks",
                 buttontext: "Arizona State University",
-                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=88967&searchType=all&term=2217&collapse=Y",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=72347&searchType=all&term=2217&collapse=Y",
                 buttonglow: false,
                 buttonclass: "btn btn-primary container-fluid"
             },
