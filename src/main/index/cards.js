@@ -52,6 +52,17 @@ export const sectionsData = [
             {
                 image:"/images/asu.svg",
                 imagealt:"Arizona State University",
+                title: "CSE 365",
+                subtitle: "Information Assurance",
+                text: "Learnt about the basics of Information Security, network security, and other principles.",
+                buttontext: "Arizona State University",
+                buttonlink: "https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=21120&searchType=all&term=2201&collapse=Y",
+                buttonglow: false,
+                buttonclass: "btn btn-primary container-fluid"
+            },
+            {
+                image:"/images/asu.svg",
+                imagealt:"Arizona State University",
                 title: "CSE 434",
                 subtitle: "Computer Networks",
                 text: "Covered the basics of how different kinds of computer networks work.",
