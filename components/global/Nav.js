@@ -23,7 +23,7 @@ export default function Nav(props) {
                     />
                     <Button
                         text="Contact"
-                        link="mailto:forbear-scythes0k@icloud.com?subject=Contacted%20by%20vc551.com"
+                        link="mailto:contact@vc551.com?subject=Contacted%20by%20vc551.com"
                         class="success"
                         glow={true}
                     />
