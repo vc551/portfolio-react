@@ -2,6 +2,7 @@ import Cards from "./Cards";
 
 export default function Section(props) {
     const divname = props.heading.replace(/\s/g, '') + "-dropdown";
+    const show = props?.show ? "show" : ""
 
     return (
         <div className={`container-fluid bg-${props.backstyle} text-${props.textstyle} pt-5 pb-4`}>
@@ -12,7 +13,7 @@ export default function Section(props) {
                 <i className="bi-chevron-down" />
             </button>
             </div>
-            <div className="collapse ps-4" id={divname}>
+            <div className={`collapse ${show} ps-4`} id={divname}>
                 <Cards cards={props.cards} />
             </div>
         </div>

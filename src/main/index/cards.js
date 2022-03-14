@@ -4,6 +4,7 @@ export const sectionsData = [
         textstyle: "light",
         heading: "Artificial Intelligence",
         paragraph: "I'm very interested in AI/ML applications as well. I've taken several classes and projects to better understand the concept.",
+        show: true,
         cards: [
             {
                 image:"/images/asu.svg",

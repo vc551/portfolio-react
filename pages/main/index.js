@@ -12,6 +12,7 @@ const sections = sectionsData.map((data, key) =>
         textstyle={data.textstyle}
         heading={data.heading}
         paragraph={data.paragraph}
+        show={data?.show}
         cards={data.cards}
         key={key}
     />

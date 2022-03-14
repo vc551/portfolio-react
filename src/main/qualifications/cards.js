@@ -4,6 +4,7 @@ export const qualificationsData = [
         textstyle: "light",
         heading: "Professional Qualifications",
         paragraph: "I've worked at various professional positions as a student worker at ASU. Here are some details of the positions I've worked at.",
+        show: true,
         cards: [
             {
                 height: 32,

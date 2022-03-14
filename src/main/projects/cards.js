@@ -4,6 +4,7 @@ export const projectsData = [
         textstyle: "light",
         heading: "Academic and Professional",
         paragraph: "Here's a list of some of my academic and professional projects.These also include projects that I've created for various hackathons",
+        show: true,
         cards: [
             {
                 image:"/images/mnist.png",
@@ -275,7 +276,7 @@ export const projectsData = [
             {
                 height: 19,
                 innerheight: 9,
-                image: "/images/xcode.png",
+                image: "/images/xcode.jpg",
                 imagealt: "Xcode",
                 title: "Xcode",
                 subtitle: "IDE",
